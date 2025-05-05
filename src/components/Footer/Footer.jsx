@@ -1,11 +1,12 @@
-import './Footer.css';
+import React from 'react'
+import './Footer.css'
 
-const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} Klimb App</p>
+      <p>&copy; 2025 KPI Management System. All rights reserved.</p>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

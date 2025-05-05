@@ -1,11 +1,9 @@
-import './Navbar.css';
+import React from 'react'
+import './Navbar.css'
 
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <h1>Klimb App</h1>
-    </nav>
-  );
-};
+// Removed the Navbar content for the landing page
+function Navbar() {
+  return null; // Render nothing for the landing page
+}
 
-export default Navbar;
+export default Navbar
